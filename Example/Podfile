@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MixSwiftObjectiveC_Example', :exclusive => true do
+  pod "MixSwiftObjectiveC", :path => "../"
+end
+
+target 'MixSwiftObjectiveC_Tests', :exclusive => true do
+  pod "MixSwiftObjectiveC", :path => "../"
+
+  
+end
